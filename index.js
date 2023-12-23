@@ -26,7 +26,7 @@ app.get('/api/hello', function(req, res) {
 
 
 // The Challenge
-mongoose.connect(process.env.DB_URL);
+mongoose.connect("mongodb+srv://fadidajunaedy:vqdVa0F6Z6dZH7wt@cluster0.36ptmgc.mongodb.net/?retryWrites=true&w=majority");
 
 const shortUrlSchema = new mongoose.Schema({
   original_url: {
